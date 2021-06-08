@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title> Dudas y opiniones </title>
+<h2> La duda que tenga favor de mandarlo a travez de este medio colocando los datos que se piden </h2>
+</head>
+
+<body>
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Coloca aqui tu nombre <input type="text" name="Nombre" /></label>   
+  </p>
+  <p>
+    <label>Coloca aqui tu correo <input type="email" name="email" /></label>
+  </p>
+  <p>
+	Selecciona el prducto del que tienes duda o recomendacion.</br>
+    <label><select name="Producto[]" multiple> 
+	
+      <option value="Boxer">Boxer</option>
+      <option value="Boyshorts">Boyshorts</option>
+	  <option value="Calzoncillos">Calzoncillos</option>
+      <option value="Bikini">Bikini</option>
+	  <option value="Calzoncillos">Calzoncillos los para mujer</option>
+      <option value="Tanga">Tanga</option>
+	  <option value="Calzon cachemir">Calzon cachemir</option>
+      <option value="Otro tipo de duda">Otro tipo de duda</option>
+	  
+    </select></label>
+  </p>
+  <p>Coloca aqui tu duda </br> 
+    <label><textarea name="Duda"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Enviar duda</button>
+  </p>
+</form>
+
+
+</body>
